@@ -18,8 +18,9 @@ def sampleData():
         for j in range(16):
             valueBuff.append(load_lut[j][i])
         meanBuff = mean(valueBuff)
-        lut.append(meanBuff)
-        #print(meanBuff)
+        intMeanBuff = round(meanBuff)
+        lut.append(intMeanBuff)
+        #print(intMeanBuff)
 
 def writeFile():
     f = open("esp32_calibrate_v2_finish.txt", "w")
