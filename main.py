@@ -1,3 +1,4 @@
-import adc_lut as adc
+#import adc_lut as adc
 
-print(adc.adc_lut[5])
+#print(adc.adc_lut[1000])
+
